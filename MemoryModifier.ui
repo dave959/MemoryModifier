@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MemoryModifierClass</class>
+ <widget class="QMainWindow" name="MemoryModifierClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>390</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MemoryModifier</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.ico</normaloff>icon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="2" column="0" colspan="8">
+     <widget class="QTabWidget" name="gameTabWidget">
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>260</height>
+       </size>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::South</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="KAKAROT">
+       <attribute name="title">
+        <string>卡卡罗特</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="healthATCheckBox">
+          <property name="text">
+           <string>体力</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="healthATLineEdit"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QCheckBox" name="qiATCheckBox">
+          <property name="text">
+           <string>气力</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QLineEdit" name="qiATLineEdit">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QLabel" name="label_41">
+          <property name="text">
+           <string>蓝珠</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QLineEdit" name="blueATLineEdit"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_37">
+          <property name="text">
+           <string>经验</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="experienceATLineEdit"/>
+        </item>
+        <item row="1" column="2">
+         <widget class="QCheckBox" name="angryATCheckBox">
+          <property name="text">
+           <string>沸腾</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QLineEdit" name="angryATLineEdit">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QLabel" name="label_40">
+          <property name="text">
+           <string>红珠</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="QLineEdit" name="redATLineEdit"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>附加体力</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="addHealthATLineEdit"/>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_36">
+          <property name="text">
+           <string>等级</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLineEdit" name="gradeATLineEdit"/>
+        </item>
+        <item row="2" column="4">
+         <widget class="QLabel" name="label_82">
+          <property name="text">
+           <string>绿珠</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="5">
+         <widget class="QLineEdit" name="greenATLineEdit"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_28">
+          <property name="text">
+           <string>附加气力</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="addQiATLineEdit"/>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLabel" name="label_34">
+          <property name="text">
+           <string>附加气防</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QLineEdit" name="addQDefenseATLineEdit"/>
+        </item>
+        <item row="3" column="4">
+         <widget class="QLabel" name="label_83">
+          <property name="text">
+           <string>彩珠</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="5">
+         <widget class="QLineEdit" name="coloursATLineEdit"/>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_31">
+          <property name="text">
+           <string>附加格攻</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="addGATKATLineEdit"/>
+        </item>
+        <item row="4" column="2">
+         <widget class="QLabel" name="label_35">
+          <property name="text">
+           <string>附加暴击</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QLineEdit" name="criticalATLineEdit"/>
+        </item>
+        <item row="4" column="4">
+         <widget class="QLabel" name="label_84">
+          <property name="text">
+           <string>紫珠</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="5">
+         <widget class="QLineEdit" name="purpleATLineEdit"/>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_32">
+          <property name="text">
+           <string>附加格防</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="addGDefenseATLineEdit"/>
+        </item>
+        <item row="5" column="4">
+         <widget class="QLabel" name="label_85">
+          <property name="text">
+           <string>金珠</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="5">
+         <widget class="QLineEdit" name="goldATLineEdit"/>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_33">
+          <property name="text">
+           <string>附加气攻</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLineEdit" name="addQATKATLineEdit"/>
+        </item>
+        <item row="6" column="2">
+         <widget class="QLabel" name="label_86">
+          <property name="text">
+           <string>钱</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="3">
+         <widget class="QLineEdit" name="moneyATLineEdit"/>
+        </item>
+        <item row="6" column="4">
+         <widget class="QLabel" name="label_87">
+          <property name="text">
+           <string>D牌</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="5">
+         <widget class="QLineEdit" name="zATLineEdit"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="XJQXZXZ">
+       <attribute name="title">
+        <string>仙剑续传</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0" colspan="2">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>经验地址</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2" colspan="3">
+           <widget class="QLineEdit" name="experienceAddressLineEdit"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLabel" name="label_25">
+            <property name="text">
+             <string>精地址</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6" colspan="2">
+           <widget class="QLineEdit" name="currentHealthAddressLineEdit"/>
+          </item>
+          <item row="0" column="8" colspan="2">
+           <widget class="QLabel" name="label_26">
+            <property name="text">
+             <string>神地址</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="QLineEdit" name="currentSpiritAddressLineEdit"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>精</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="2">
+           <widget class="QLineEdit" name="currentHealthLineEdit"/>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>/</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4" colspan="2">
+           <widget class="QLineEdit" name="maximumHealthLineEdit"/>
+          </item>
+          <item row="1" column="6">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>神</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="7" colspan="2">
+           <widget class="QLineEdit" name="currentSpiritLineEdit"/>
+          </item>
+          <item row="1" column="9">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>/</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="10">
+           <widget class="QLineEdit" name="maximumSpiritLineEdit"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>气</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="2">
+           <widget class="QLineEdit" name="currentQiLineEdit"/>
+          </item>
+          <item row="2" column="3">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>/</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4" colspan="2">
+           <widget class="QLineEdit" name="maximumQiLineEdit"/>
+          </item>
+          <item row="2" column="6" colspan="3">
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>48</width>
+              <height>17</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="9">
+           <widget class="QLabel" name="label_30">
+            <property name="text">
+             <string>经验</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="10">
+           <widget class="QLineEdit" name="experienceLineEdit"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>手</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" colspan="2">
+           <widget class="QLineEdit" name="handLineEdit">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>攻</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4" colspan="2">
+           <widget class="QLineEdit" name="attackLineEdit"/>
+          </item>
+          <item row="3" column="6">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>雷</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="7" colspan="2">
+           <widget class="QLineEdit" name="thunderLineEdit"/>
+          </item>
+          <item row="3" column="9">
+           <widget class="QLabel" name="label_29">
+            <property name="text">
+             <string>等级</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="10">
+           <widget class="QLineEdit" name="currentGradeLineEdit"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_22">
+            <property name="text">
+             <string>头</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1" colspan="2">
+           <widget class="QLineEdit" name="headLineEdit">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>防</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4" colspan="2">
+           <widget class="QLineEdit" name="defenseLineEdit"/>
+          </item>
+          <item row="4" column="6">
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>风</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="7" colspan="2">
+           <widget class="QLineEdit" name="windLineEdit"/>
+          </item>
+          <item row="4" column="9">
+           <widget class="QLabel" name="label_27">
+            <property name="text">
+             <string>阴</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="10">
+           <widget class="QLineEdit" name="shadeLineEdit"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_21">
+            <property name="text">
+             <string>身</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1" colspan="2">
+           <widget class="QLineEdit" name="bodyLineEdit">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>灵</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4" colspan="2">
+           <widget class="QLineEdit" name="spiritualLineEdit"/>
+          </item>
+          <item row="5" column="6">
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>水</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="7" colspan="2">
+           <widget class="QLineEdit" name="waterLineEdit"/>
+          </item>
+          <item row="5" column="9">
+           <widget class="QLabel" name="label_24">
+            <property name="text">
+             <string>阳</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="10">
+           <widget class="QLineEdit" name="sunLineEdit"/>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>脚</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1" colspan="2">
+           <widget class="QLineEdit" name="footLineEdit">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>速</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="4" colspan="2">
+           <widget class="QLineEdit" name="speedLineEdit"/>
+          </item>
+          <item row="6" column="6">
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>火</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="7" colspan="2">
+           <widget class="QLineEdit" name="fireLineEdit"/>
+          </item>
+          <item row="6" column="9" rowspan="2" colspan="2">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>118</width>
+              <height>17</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="label_23">
+            <property name="text">
+             <string>饰</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1" colspan="2">
+           <widget class="QLineEdit" name="accessorieLineEdit">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="3">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>运</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="4" colspan="2">
+           <widget class="QLineEdit" name="luckLineEdit"/>
+          </item>
+          <item row="7" column="6">
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>土</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="7" colspan="2">
+           <widget class="QLineEdit" name="earthLineEdit"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="4" colspan="2">
+     <widget class="QLineEdit" name="gameAddressATLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="role1RadioButton">
+      <property name="text">
+       <string>角色一</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QRadioButton" name="role5RadioButton">
+      <property name="text">
+       <string>角色五</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>50</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="3" colspan="2">
+     <widget class="QRadioButton" name="role3RadioButton">
+      <property name="text">
+       <string>角色三</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QRadioButton" name="role2RadioButton">
+      <property name="text">
+       <string>角色二</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="modifyPushButton">
+      <property name="text">
+       <string>修改</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>8</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="processGamePushButton">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Stopped</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" colspan="2">
+     <widget class="QLabel" name="label_38">
+      <property name="text">
+       <string>游戏地址</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QRadioButton" name="role4RadioButton">
+      <property name="text">
+       <string>角色四</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>modifyPushButton</zorder>
+   <zorder>role5RadioButton</zorder>
+   <zorder>role2RadioButton</zorder>
+   <zorder>role3RadioButton</zorder>
+   <zorder>role1RadioButton</zorder>
+   <zorder>role4RadioButton</zorder>
+   <zorder>processGamePushButton</zorder>
+   <zorder>gameAddressATLineEdit</zorder>
+   <zorder>label_38</zorder>
+   <zorder>horizontalSpacer</zorder>
+   <zorder>horizontalSpacer_2</zorder>
+   <zorder>gameTabWidget</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>425</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏</string>
+    </property>
+    <addaction name="actionRPG_RT_exe"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actionRPG_RT_exe">
+   <property name="text">
+    <string>RPG_RT.exe</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
